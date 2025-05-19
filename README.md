@@ -1,5 +1,5 @@
 <div align="center">
-<h1>`$ MinimalSway`</h1>
+<h1><code>$ MinimalSway</code></h1>
 
 **[<kbd> <br> Issues <br> </kbd>][Issues]**
 **[<kbd> <br> Install <br> </kbd>][Installation]**
