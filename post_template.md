@@ -1,5 +1,5 @@
 **Details**
-- OS: Arch Linux
+- OS: Void Linux
 - WM: Sway
 - Terminal: Alacritty
 - Status Bar: Waybar
