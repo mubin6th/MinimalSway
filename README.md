@@ -36,3 +36,4 @@ Here are the common keybindings for MinimalSwayFX:
 |`Win+Shift+v`|Toggle between floating & tiling mode.|
 |`Win+Shift+<i,j,k,l>`|Move window in floating mode.|
 |`Win+r`|Switch resizable mode & `esc` to go back to normal mode.|
+
