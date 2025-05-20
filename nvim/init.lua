@@ -814,24 +814,24 @@ require("lazy").setup({
 								"cpt",
 								lsnpFmt(
 									[[
-              #include <bits/stdc++.h>
-              using namespace std;
+                    #include <bits/stdc++.h>
+                    using namespace std;
 
-              void solve(int t) {{
-                  {}
-              }}
+                    void solve(int t) {{
+                        {}
+                    }}
 
-              int main() {{
-                  int t;
-                  cin >> t;
+                    int main() {{
+                        int t;
+                        cin >> t;
 
-                  while (t--) {{
-                    solve(t);
-                  }}
+                        while (t--) {{
+                            solve(t);
+                        }}
 
-                  return 0;
-              }}
-              ]],
+                        return 0;
+                    }}
+                  ]],
 									{ lsnpI(0) }
 								)
 							),
@@ -840,15 +840,15 @@ require("lazy").setup({
 								"cp",
 								lsnpFmt(
 									[[
-                #include <bits/stdc++.h>
-                using namespace std;
+                    #include <bits/stdc++.h>
+                    using namespace std;
 
-                int main() {{
-                    {}
+                    int main() {{
+                        {}
 
-                    return 0;
-                }}
-              ]],
+                        return 0;
+                    }}
+                  ]],
 									{ lsnpI(0) }
 								)
 							),

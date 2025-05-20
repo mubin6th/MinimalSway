@@ -20,7 +20,10 @@ A simple linux configuration for Sway & SwayFX.
 
 ## Installation
 To install MinimalSwayFX:
-1. Clone the repository with `$ git clone https://github.com/mubin6th/MinimalSway`
+1. Clone the repository with:
+```bash
+$ git clone --depth 1 https://github.com/mubin6th/MinimalSway
+```
 2. Move the config folders to your `$HOME/.config` folder.
 3. **Optional**: you may move the `nvim`(Neovim) config to your config folder.
 
