@@ -6,17 +6,19 @@
 **[<kbd> <br> Pull Requests <br> </kbd>][Pull Requests]**
 **[<kbd> <br> Keybindings <br> </kbd>][Keybindings]**
 
-<br>
-
-A simple linux configuration for Sway & SwayFX.
-
-<br>
-
 [Keybindings]: https://github.com/MubinMuhammad/MinimalSwayFX/?tab=readme-ov-file#CommonKeybindings
 [Installation]: https://github.com/MubinMuhammad/MinimalSwayFX/?tab=readme-ov-file#Installation
 [Issues]: https://github.com/MubinMuhammad/MinimalSwayFX/issues
 [Pull Requests]: https://github.com/MubinMuhammad/MinimalSwayFX/pulls
 </div>
+
+## About
+MinimalSway is a light-weight configuration of swaywm. All
+parts of the system has minimal ui & follows consistency among
+different components.
+
+
+The configuration helps the system look and function identical among differenet machines and users don't have to think about the configuration much.
 
 ## Installation
 To install MinimalSwayFX:
