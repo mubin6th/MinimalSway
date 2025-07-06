@@ -1,6 +1,6 @@
 <div align="center">
     <h1>MinimalSway</h1>
-    [Preview][#Preview] | [Install][#Install] | [Contribute][#Contributing]
+    [Preview](#Preview) | [Install](#Install) | [Contribute](#Contributing)
 </div>
 
 ## About
