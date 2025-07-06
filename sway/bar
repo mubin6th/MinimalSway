@@ -1,17 +1,2 @@
-# swaybar + i3status-rs is active. comment these lines and uncomment
-# the waybar line to enable waybar.
-#bar {
-#    position top
-#    font pango:ubuntu mono bold 14
-#
-#    status_command i3status-rs $HOME/.config/sway/i3status_rs.toml
-#
-#    colors {
-#        statusline #c4c4c4
-#        background #101010
-#        inactive_workspace #32323200 #32323200 #5c5c5c
-#    }
-#}
-
-# uncomment the line below to enable waybar
+# enables waybar
 bar swaybar_command waybar
