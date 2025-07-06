@@ -29,7 +29,7 @@ This installation process is automated with `install.fish`. Make sure
 you have `fish` shell installed. If so, `cd` into the project and run
 the script with:
 ``` fish
-$ fish install.sh
+$ fish install.fish
 ```
 
 The Neovim configuration is not copied by default. You shall copy it
