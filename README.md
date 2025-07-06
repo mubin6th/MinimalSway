@@ -1,7 +1,11 @@
 <div align="center">
     <h1>MinimalSway</h1>
-    [Preview](https://github.com/mubin6th/MinimalSway#Preview) | [Install](https://github.com/mubin6th/MinimalSway#Install) | [Contribute](https://github.com/mubin6th/MinimalSway#Contributing)
+    [Preview][Preview] | [Install][Install] | [Contribute][Contribute]
 </div>
+
+[Preview]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#preview
+[Install]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#install
+[Contribute]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#contributing
 
 ## About
 MinimalSway is a configuration or *a list of settings* for the SwayWM.
