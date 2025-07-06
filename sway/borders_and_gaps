@@ -1,0 +1,12 @@
+# for more customization run `man 5 sway`.
+
+# setting border colors:
+# class                 border  backgr. text    indicat. child_border
+client.focused          #b19565 #101010 #101010 #917a53  #b19565
+client.focused_inactive #574a35 #101010 #101010 #574a35  #574a35
+client.unfocused        #4b4239 #101010 #c9af82 #574a35  #4b4239
+client.urgent           #d8a657 #101010 #101010 #b8883b  #d8a657
+client.placeholder      #b19565 #101010 #101010 #917a53  #b19565
+
+default_border pixel 2
+gaps inner 6

@@ -1,0 +1,14 @@
+# read `man 5 sway` for a complete reference.
+
+set $config_path "$HOME/.config/sway"
+
+include $config_path/variables
+include $config_path/autostarts
+include $config_path/borders_and_gaps
+include $config_path/io
+include $config_path/basic_keybinds
+include $config_path/movement_keybinds
+include $config_path/workspace_keybinds
+include $config_path/resize_keybinds
+include $config_path/layout_keybinds
+include $config_path/bar

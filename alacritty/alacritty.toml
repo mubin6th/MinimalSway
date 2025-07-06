@@ -1,0 +1,41 @@
+[colors.primary]
+background = '#101010'
+foreground = '#c9af82'
+
+[colors.normal]
+black   = '#1d2021'
+white   = '#c9af82'
+red     = '#c7433c'
+green   = '#899359'
+blue    = '#60998d'
+yellow  = '#b8883b'
+cyan    = '#749e6e'
+magenta = '#ab536a'
+
+[colors.bright]
+black   = '#4b4239'
+white   = '#ddc7a1'
+red     = '#ea6962'
+green   = '#a9b665'
+blue    = '#7daea3'
+yellow  = '#d8a657'
+cyan    = '#89b482'
+magenta = '#c26780'
+
+[font]
+size = 17
+
+[font.normal]
+family = "ubuntu mono nerd font"
+style = "medium"
+
+[terminal.shell]
+program = "/bin/fish"
+
+[window]
+opacity = 1.000000
+
+[window.padding]
+x = 24
+y = 24
+

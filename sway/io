@@ -1,0 +1,25 @@
+# to find more options for input devices:
+# run `man 5 sway-input`
+
+input type:pointer {
+    accel_profile flat
+    pointer_accel -0.2
+}
+
+input type:keyboard {
+    xkb_layout us
+}
+
+# to find more options for input devices:
+# run `man 5 sway-output`
+
+output * bg #d1c8bf solid_color
+
+# this command is used to suspend the computer after some time.
+# after 900 seconds the screen will be black.
+# after 1200 seconds the screen will turn off.
+exec swayidle -w \
+         timeout 900 'swaylock -f -c 000000' \
+         timeout 1200 'swaymsg "output * power off"' \
+         resume 'swaymsg "output * power on"' \
+         before-sleep 'swaylock -f -c 000000'

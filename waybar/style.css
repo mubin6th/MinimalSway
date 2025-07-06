@@ -1,0 +1,94 @@
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: "ubuntu mono";
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0;
+}
+
+window#waybar {
+    background: #101010;
+    border-bottom: 2px solid #4b4239;
+}
+
+tooltip {
+    background-color: #101010;
+    border: 2px solid #766451;
+}
+
+#clock,
+#tray,
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio {
+    margin: 6px 6px 6px 0px;
+    padding: 2px 8px;
+}
+
+#workspaces {
+    background-color: #322d28;
+    margin: 6px 0px 6px 6px;
+    border: 2px solid #625343;
+}
+
+#workspaces button {
+    all: initial;
+    min-width: 0;
+    box-shadow: inset 0 -3px transparent;
+    padding: 2px 4px;
+    color: #917a53;
+}
+
+#workspaces button.focused {
+    color: #ddc7a1;
+}
+
+#workspaces button.urgent {
+    background-color: #e78a4e;
+    color: #1d2021;
+}
+
+#clock {
+    background-color: #322d28;
+    border: 2px solid #625343;
+    color: #d4be98;
+}
+
+#tray {
+    background-color: #d4be98;
+    border-bottom: 4px solid #b19565;
+}
+
+#battery {
+    background-color: #a9b665;
+    border: 2px solid #c7ab7a;
+    color: #6c782e;
+}
+
+#cpu,
+#memory,
+#network,
+#pulseaudio {
+    background-color: #c9af82;
+    border: 2px solid #917a53;
+    color: #1d2021;
+}
+
+#cpu.critical,
+#memory.critical {
+    background-color: #c9af82;
+    border: 2px solid #917a53;
+    color: #c14a4a;
+}
+
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+    background-color: #c9af82;
+    border: 2px solid #917a53;
+    color: #ae6330;
+}
