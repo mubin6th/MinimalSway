@@ -1,6 +1,7 @@
 <div align="center">
     <h1>MinimalSway</h1>
-    [Preview][Preview] | [Install][Install] | [Contribute][Contribute]
+
+[Preview] | [Install] | [Contribute]
 </div>
 
 [Preview]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#preview
