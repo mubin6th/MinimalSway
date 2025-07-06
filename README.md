@@ -1,1 +1,3 @@
-<h1 style="text-align: center;"><code>$ MinimalSway</code></h1>
+<div style="text-align: center;">
+<h1><code>$ MinimalSway</code></h1>
+</div>
