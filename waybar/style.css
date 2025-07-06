@@ -58,17 +58,13 @@ tooltip {
     color: #d4be98;
 }
 
-#tray {
-    background-color: #d4be98;
-    border-bottom: 4px solid #b19565;
-}
-
 #battery {
     background-color: #a9b665;
     border: 2px solid #c7ab7a;
     color: #6c782e;
 }
 
+#tray,
 #cpu,
 #memory,
 #network,
