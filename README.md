@@ -20,6 +20,11 @@ without its benefits. Minor changes to make it polished are welcome!
 Though the name is "MinimalSway", it also works with Swayfx as it is
 a *superset* of SwayWM.
 
+## Preview
+<img
+src="https://github.com/mubin6th/MinimalSway/blob/master/readme_res/preview.jpg?raw=true"
+alt="preview image">
+
 ## Install
 After cloning the repository,there are 2 methods to install
 MinimalSway.
