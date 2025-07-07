@@ -39,7 +39,7 @@ alt="preview image">
 The Super key is the Windows key on traditional keyboards. And the
 Command Key on Mac keyboards.
 
-- **Super+Enter**: Open Termintal (alacritty).
+- **Super+Enter**: Open Terminal (alacritty).
 - **Super+d**: Open Launcher (bemenu).
 - **Super+s**: Take Screenshot (Drag with cursor to select section, screenshots will be saved at `$HOME/Pictures`).
 - **Super+<h,j,k,l or arrow keys>**: Focus on left, bottom, top, right tiled windows respectively.
