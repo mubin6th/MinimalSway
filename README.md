@@ -1,10 +1,12 @@
 <div align="center">
     <h1>MinimalSway</h1>
 
-**[Preview] | [Install] | [Contribute]**
+**[Preview] | [Basic Keybinds] | [Dependencies] | [Install] | [Contribute]**
 </div>
 
 [Preview]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#preview
+[Basic Keybinds]: https://github.com/mubin6th/MinimalSway/?tab=readme-ov-file#basic-keybinds
+[Dependencies]: https://github.com/mubin6th/MinimalSway/?tab=readme-ov-file#dependencies
 [Install]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#install
 [Contribute]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#contributing
 
@@ -52,6 +54,19 @@ Command Key on Mac keyboards.
 There are more keybinds then listed here. If you are interested on
 those, then take a look at files ending with `_keybinds` in the
 `sway/` directory.
+
+## Dependencies
+```
+# ARCH LINUX
+$ yay -Sy sway swaybg swayidle alacritty fastfetch fish neovim waybar eza cbonsai grim slurp ripgrep bemenu
+
+# VOID LINUX
+$ sudo xbps-install -S sway swaybg swayidle alacritty fastfetch fish-shell neovim Waybar eza cbonsai grim slurp ripgrep bemenu
+
+# DEBIAN LINUX (fastfetch, eza(is required) not available)
+$ sudo apt update
+$ sudo apt install sway swaybg swayidle alacritty fish neovim waybar cbonsai grim slurp ripgrep bemenu
+```
 
 ## Install
 After cloning the repository,there are 2 methods to install
