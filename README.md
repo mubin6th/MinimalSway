@@ -1,7 +1,7 @@
 <div align="center">
     <h1>MinimalSway</h1>
 
-[Preview] | [Install] | [Contribute]
+**[Preview] | [Install] | [Contribute]**
 </div>
 
 [Preview]: https://github.com/mubin6th/MinimalSway?tab=readme-ov-file#preview
@@ -32,6 +32,26 @@ a *superset* of SwayWM.
 <img
 src="https://github.com/mubin6th/MinimalSway/blob/master/readme_res/preview.jpg?raw=true"
 alt="preview image">
+
+## Basic Keybinds
+The Super key is the Windows key on traditional keyboards. And the
+Command Key on Mac keyboards.
+
+- **Super+Enter**: Open Termintal (alacritty).
+- **Super+d**: Open Launcher (bemenu).
+- **Super+s**: Take Screenshot (Drag with cursor to select section, screenshots will be saved at `$HOME/Pictures`).
+- **Super+<h,j,k,l or arrow keys>**: Focus on left, bottom, top, right tiled windows respectively.
+- **Super+Shift+<h,j,k,l or arrow keys>**: Wwap with focused window on left, bottom, top, right tiled windows respectively.
+- **Super+f**: Make focused window fullscreen.
+- **Super+Shift+v**: Turn focused window floating or turn focus floating window tiled.
+- **Super+<mouse left click + drag>**: Move the focused floating window.
+- **Super+<mouse right click + drag>**: Resize the focused floating window.
+- **Super+Shift+q**: Close the focused window.
+- **Super+m**: Exit Sway.
+
+There are more keybinds then listed here. If you are interested on
+those, then take a look at files ending with `_keybinds` in the
+`sway/` directory.
 
 ## Install
 After cloning the repository,there are 2 methods to install
