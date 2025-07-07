@@ -13,7 +13,7 @@ input type:keyboard {
 # to find more options for input devices:
 # run `man 5 sway-output`
 
-output * bg #d1c8bf solid_color
+output * bg $config_path/default_wallpaper.jpg fill
 
 # this command is used to suspend the computer after some time.
 # after 900 seconds the screen will be black.

@@ -14,6 +14,9 @@ bindsym $mod+Shift+q kill
 # start your launcher
 bindsym $mod+d exec $menu
 
+# take screenshot
+bindsym $mod+x exec $config_path/screenshot.sh
+
 # change normal to inverse to use left mouse button for resizing and
 # right mouse button for dragging.
 floating_modifier $mod normal

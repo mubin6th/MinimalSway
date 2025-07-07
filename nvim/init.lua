@@ -831,6 +831,8 @@ require("lazy").setup({
                   typedef long long int lli;
                   typedef long long unsigned int llu;
 
+                  const int M = (int)1e9 + 7;
+
                   int main() {{
                       {}
 
@@ -857,6 +859,8 @@ require("lazy").setup({
 
                   typedef long long int lli;
                   typedef long long unsigned int llu;
+
+                  const int M = (int)1e9 + 7;
 
                   void solve() {{
                       {}
