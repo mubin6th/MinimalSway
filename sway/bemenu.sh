@@ -1,7 +1,7 @@
 #!/bin/bash
 
 bemenu-run \
-    --fn "ubuntu mono nerd font bold 14" \
+    --fn "mononoki bold 14" \
     --no-cursor \
     --ignorecase \
     --prompt "run: " \

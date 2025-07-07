@@ -23,11 +23,11 @@ cyan    = '#89b482'
 magenta = '#c26780'
 
 [font]
-size = 17
+size = 16
 
 [font.normal]
-family = "ubuntu mono nerd font"
-style = "medium"
+family = "mononoki"
+style = "bold"
 
 [terminal.shell]
 program = "/bin/fish"
