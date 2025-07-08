@@ -36,9 +36,12 @@ a *superset* of SwayWM.
 >   - The image uses the `Ubuntu mono` font, but currently we use the `Mononoki` font.
 
 
+<div>
+<br>
 <img
 src="https://github.com/mubin6th/MinimalSway/blob/master/readme_res/preview.jpg?raw=true"
 alt="preview image">
+<div>
 
 ## Basic Keybinds
 The Super key is the Windows key on traditional keyboards. And the
