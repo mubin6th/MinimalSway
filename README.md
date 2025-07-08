@@ -31,6 +31,9 @@ Though the name is "MinimalSway", it also works with Swayfx as it is
 a *superset* of SwayWM.
 
 ## Preview
+> [!WARNING]
+> Some changes after the image was uploaded:
+>   - The image uses the `Ubuntu mono` font, but currently we use the `Mononoki` font.
 <img
 src="https://github.com/mubin6th/MinimalSway/blob/master/readme_res/preview.jpg?raw=true"
 alt="preview image">
