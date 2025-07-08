@@ -56,7 +56,7 @@ those, then take a look at files ending with `_keybinds` in the
 `sway/` directory.
 
 ## Dependencies
-```
+```bash
 # ARCH LINUX
 $ yay -Sy sway swaybg swayidle alacritty fastfetch fish neovim waybar eza cbonsai grim slurp ripgrep bemenu
 
@@ -66,6 +66,13 @@ $ sudo xbps-install -S sway swaybg swayidle alacritty fastfetch fish-shell neovi
 # DEBIAN LINUX (fastfetch, eza(is required) not available)
 $ sudo apt update
 $ sudo apt install sway swaybg swayidle alacritty fish neovim waybar cbonsai grim slurp ripgrep bemenu
+```
+
+### Installing the font
+The configuration uses the [Mononoki](https://madmalik.github.io/mononoki/) font. You can download it from [here](https://github.com/madmalik/mononoki/releases/latest). After you have downloaded and unzipped the file, run
+the following command on **Linux** to install it:
+```bash
+$ mv *.ttf /usr/share/fonts/TTF
 ```
 
 ## Install
