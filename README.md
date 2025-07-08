@@ -41,7 +41,7 @@ a *superset* of SwayWM.
 <img
 src="https://github.com/mubin6th/MinimalSway/blob/master/readme_res/preview.jpg?raw=true"
 alt="preview image">
-<div>
+</div>
 
 ## Basic Keybinds
 The Super key is the Windows key on traditional keyboards. And the
