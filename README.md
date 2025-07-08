@@ -13,7 +13,7 @@
 ## About
 MinimalSway is a configuration or *a list of settings* for the SwayWM.
 It makes the window manager visually appealing. The configuration
-helps people not to focus on customizing there desktops instead to
+helps people not to focus on customizing their desktops instead to
 focus on their work. MinimalSway is a "minimal" configuration around
 SwayWM. The aim is to write as little configuration as possible while
 making it look nice.
@@ -84,7 +84,7 @@ $ mv *.ttf /usr/share/fonts/TTF
 ```
 
 ## Install
-After cloning the repository,there are 2 methods to install
+After cloning the repository, there are 2 methods to install
 MinimalSway.
 
 ### Automated
