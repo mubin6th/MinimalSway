@@ -66,14 +66,14 @@ those, then take a look at files ending with `_keybinds` in the
 ## Dependencies
 ```bash
 # ARCH LINUX
-$ yay -Sy sway swaybg swayidle alacritty fastfetch fish neovim waybar eza cbonsai grim slurp ripgrep bemenu
+$ yay -Sy sway swaybg swayidle alacritty fish waybar eza grim slurp bemenu
 
 # VOID LINUX
-$ sudo xbps-install -S sway swaybg swayidle alacritty fastfetch fish-shell neovim Waybar eza cbonsai grim slurp ripgrep bemenu
+$ sudo xbps-install -S sway swaybg swayidle alacritty fish-shell Waybar eza grim slurp bemenu
 
-# DEBIAN LINUX (fastfetch, eza(is required) not available)
+# DEBIAN LINUX (eza(is required) not available)
 $ sudo apt update
-$ sudo apt install sway swaybg swayidle alacritty fish neovim waybar cbonsai grim slurp ripgrep bemenu
+$ sudo apt install sway swaybg swayidle alacritty fish waybar grim slurp bemenu
 ```
 
 ### Installing the font
