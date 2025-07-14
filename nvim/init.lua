@@ -163,7 +163,7 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.opt.colorcolumn = "70"
+vim.opt.colorcolumn = "90"
 
 -- Preview substitutions live, as you type!
 vim.o.inccommand = "split"
@@ -823,6 +823,7 @@ require("lazy").setup({
 
                   #define _vec vector
                   #define _be(_a) _a.begin(), _a.end()
+                  #define _rbe(_a) _a.rbegin(), _a.rend()
                   #define _for(_var, _end) for (int _var = 1; _var <= _end; _var++)
                   #define _forI(_var, _start) for (int _var = _start; _var >= 1; _var--)
                   #define _forS(_var, _start, _end) for (int _var = _start; _var <= _end; _var++)
@@ -852,6 +853,7 @@ require("lazy").setup({
 
                   #define _vec vector
                   #define _be(_a) _a.begin(), _a.end()
+                  #define _rbe(_a) _a.rbegin(), _a.rend()
                   #define _for(_var, _end) for (int _var = 1; _var <= _end; _var++)
                   #define _forI(_var, _start) for (int _var = _start; _var >= 1; _var--)
                   #define _forS(_var, _start, _end) for (int _var = _start; _var <= _end; _var++)
