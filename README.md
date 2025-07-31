@@ -34,6 +34,7 @@ a *superset* of SwayWM.
 > [!WARNING]
 > Some changes after the image was uploaded:
 >   - The image uses the `Ubuntu mono` font, but currently we use the `Mononoki` font.
+>   - The text editor(Neovim) currently uses the [charcoal](https://github.com/mubin6th/charcoal) color scheme.
 
 
 <div>
