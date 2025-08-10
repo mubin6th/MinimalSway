@@ -831,13 +831,21 @@ require("lazy").setup({
                   #define _forI(_var, _start) for (int _var = _start; _var >= 1; _var--)
                   #define _forS(_var, _start, _end) for (int _var = _start; _var <= _end; _var++)
                   #define _forSI(_var, _start, _end) for (int _var = _start; _var >= _end; _var--)
+                  #define _print_vec(_v) \
+                      do { \
+                          _for (i, _v.size()) { \
+                              cout << _v[i - 1] << " "; \
+                          } \
+                          printf("\n"); \
+                      } while (0)
 
                   typedef long long int lli;
                   typedef long long unsigned int llu;
 
                   const int M = (int)1e9 + 7;
 
-                  int main() {{
+                  int main()
+                  {{
                       {}
 
                       return 0;
@@ -861,17 +869,26 @@ require("lazy").setup({
                   #define _forI(_var, _start) for (int _var = _start; _var >= 1; _var--)
                   #define _forS(_var, _start, _end) for (int _var = _start; _var <= _end; _var++)
                   #define _forSI(_var, _start, _end) for (int _var = _start; _var >= _end; _var--)
+                  #define _print_vec(_v) \
+                      do { \
+                          _for (i, _v.size()) { \
+                              cout << _v[i - 1] << " "; \
+                          } \
+                          printf("\n"); \
+                      } while (0)
 
                   typedef long long int lli;
                   typedef long long unsigned int llu;
 
                   const int M = (int)1e9 + 7;
 
-                  void solve() {{
+                  void solve()
+                  {{
                       {}
                   }}
 
-                  int main() {{
+                  int main()
+                  {{
                       int t;
                       cin >> t;
 
