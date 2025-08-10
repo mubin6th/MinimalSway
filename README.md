@@ -89,6 +89,10 @@ After cloning the repository, there are 2 methods to install
 MinimalSway.
 
 ### Automated
+> [!WARNING]
+> This method will automatically delete your old configurations. If
+> you care about them, make sure to back them up before running the
+> script.
 This installation process is automated with `install.fish`. Make sure
 you have `fish` shell installed. If so, `cd` into the project and run
 the script with:
@@ -98,11 +102,6 @@ $ fish install.fish
 
 The Neovim configuration is not copied by default. You shall copy it
 manually.
-
-> [!WARNING]
-> This method will automatically delete your old configurations. If
-> you care about them, make sure to back them up before running the
-> script.
 
 ### Manual
 If you want to install MinimalSway manually, just copy the
