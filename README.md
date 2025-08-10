@@ -93,6 +93,7 @@ MinimalSway.
 > This method will automatically delete your old configurations. If
 > you care about them, make sure to back them up before running the
 > script.
+
 This installation process is automated with `install.fish`. Make sure
 you have `fish` shell installed. If so, `cd` into the project and run
 the script with:
