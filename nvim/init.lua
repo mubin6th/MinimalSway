@@ -827,22 +827,26 @@ require("lazy").setup({
                   #define _vec vector
                   #define _be(_a) _a.begin(), _a.end()
                   #define _rbe(_a) _a.rbegin(), _a.rend()
-                  #define _for(_var, _end) for (int _var = 1; _var <= _end; _var++)
-                  #define _forI(_var, _start) for (int _var = _start; _var >= 1; _var--)
-                  #define _forS(_var, _start, _end) for (int _var = _start; _var <= _end; _var++)
-                  #define _forSI(_var, _start, _end) for (int _var = _start; _var >= _end; _var--)
-                  #define _print_vec(_v) \
-                      do { \
-                          _for (i, _v.size()) { \
-                              cout << _v[i - 1] << " "; \
-                          } \
-                          printf("\n"); \
-                      } while (0)
 
                   typedef long long int lli;
                   typedef long long unsigned int llu;
 
                   const int M = (int)1e9 + 7;
+
+                  template<typename T> 
+                  void print_vec(const _vec<T> &v)
+                  {{
+                      for (const T &elem : v) {{
+                          cout << elem << " ";
+                      }}
+                      printf("\n");
+                  }}
+
+                  bool sqrt_able(lli n)
+                  {{
+                      lli k = sqrt((double)n);
+                      return k * k == n;
+                  }}
 
                   int main()
                   {{
@@ -865,22 +869,26 @@ require("lazy").setup({
                   #define _vec vector
                   #define _be(_a) _a.begin(), _a.end()
                   #define _rbe(_a) _a.rbegin(), _a.rend()
-                  #define _for(_var, _end) for (int _var = 1; _var <= _end; _var++)
-                  #define _forI(_var, _start) for (int _var = _start; _var >= 1; _var--)
-                  #define _forS(_var, _start, _end) for (int _var = _start; _var <= _end; _var++)
-                  #define _forSI(_var, _start, _end) for (int _var = _start; _var >= _end; _var--)
-                  #define _print_vec(_v) \
-                      do { \
-                          _for (i, _v.size()) { \
-                              cout << _v[i - 1] << " "; \
-                          } \
-                          printf("\n"); \
-                      } while (0)
 
                   typedef long long int lli;
                   typedef long long unsigned int llu;
 
                   const int M = (int)1e9 + 7;
+
+                  template<typename T> 
+                  void print_vec(const _vec<T> &v)
+                  {{
+                      for (const T &elem : v) {{
+                          cout << elem << " ";
+                      }}
+                      printf("\n");
+                  }}
+
+                  bool sqrt_able(lli n)
+                  {{
+                      lli k = sqrt((double)n);
+                      return k * k == n;
+                  }}
 
                   void solve()
                   {{
