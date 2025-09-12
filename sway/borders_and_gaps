@@ -2,11 +2,11 @@
 
 # setting border colors:
 # class                 border  backgr. text    indicat. child_border
-client.focused          #b19565 #101010 #101010 #917a53  #b19565
-client.focused_inactive #574a35 #101010 #101010 #574a35  #574a35
-client.unfocused        #4b4239 #101010 #c9af82 #574a35  #4b4239
-client.urgent           #d8a657 #101010 #101010 #b8883b  #d8a657
-client.placeholder      #b19565 #101010 #101010 #917a53  #b19565
+client.focused          #816c4e #816c4e #120e08 #493b2d  #816c4e
+client.focused_inactive #816c4e #816c4e #120e08 #493b2d  #816c4e
+client.unfocused        #493b2d #493b2d #a68d6a #816c4e  #493b2d
+client.urgent           #c3a881 #c3a881 #120e08 #6d5a3f  #c3a881
+client.placeholder      #a68d6a #a68d6a #120e08 #493b2d  #a68d6a
 
 default_border pixel 2
 gaps inner 6

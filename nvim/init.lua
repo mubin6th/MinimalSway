@@ -1017,26 +1017,26 @@ require("lazy").setup({
 
 			require("mini.base16").setup({
 				palette = {
-					base00 = "#120f09", -- background
-					base01 = "#1e1812", -- brigher background (for status bars, line number,
+					base00 = "#120e08", -- background
+					base01 = "#1f180e", -- brigher background (for status bars, line number,
 					--                     folding marks)
-					base02 = "#35291d", -- selection background
-					base03 = "#66553f", -- comments, invisibles, line highlighting
-					base04 = "#a28662", -- dark foreground (for status bars)
-					base05 = "#c0a179", -- foreground
-					base06 = "#d6b891", -- bright foreground
-					base07 = "#292016", -- bright background
-					base08 = "#887254", -- variables, xml tags, markup link text, markup lists,
+					base02 = "#352c1f", -- selection background
+					base03 = "#816c4e", -- comments, invisibles, line highlighting
+					base04 = "#a68d6a", -- dark foreground (for status bars)
+					base05 = "#a68d6a", -- foreground
+					base06 = "#d6be9c", -- bright foreground
+					base07 = "#352c1f", -- bright background
+					base08 = "#c3a881", -- variables, xml tags, markup link text, markup lists,
 					--                     diff deleted
-					base09 = "#d6b891", -- integer, boolean, constants, xml attributes, markup link
+					base09 = "#d6be9c", -- integer, boolean, constants, xml attributes, markup link
 					--                     url
-					base0A = "#c0a179", -- classes, markup bold, search text background
-					base0B = "#a28662", -- strings, inherited class, markup code, diff inserted
-					base0C = "#a28662", -- data types, support, regular expressions,
+					base0A = "#d6be9c", -- classes, markup bold, search text background
+					base0B = "#a68d6a", -- strings, inherited class, markup code, diff inserted
+					base0C = "#d6be9c", -- data types, support, regular expressions,
 					--                     escape characters, markup, quotes
-					base0D = "#d6b891", -- functions, methods, attribute ids, headings
-					base0E = "#a28662", -- keywords, storage, selector, markup italic, diff changed
-					base0F = "#887254", -- deprecated, opening/closing embedded language tags,
+					base0D = "#c3a881", -- functions, methods, attribute ids, headings
+					base0E = "#a68d6a", -- keywords, storage, selector, markup italic, diff changed
+					base0F = "#816c4e", -- deprecated, opening/closing embedded language tags,
 					--                     e.g. `<?php ?>`
 				},
 				use_cterm = true,

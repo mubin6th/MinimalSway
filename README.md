@@ -30,6 +30,11 @@ without its benefits. Minor changes to make it polished are welcome!
 Though the name is "MinimalSway", it also works with Swayfx as it is
 a *superset* of SwayWM.
 
+## Todo
+- add gruvbox dark theme
+- add gruvbox light theme
+- add charcoal light theme
+
 ## Preview
 > [!WARNING]
 > Some changes after the image was uploaded:

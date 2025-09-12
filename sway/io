@@ -1,10 +1,12 @@
 # to find more options for input devices:
 # run `man 5 sway-input`
 
-input type:pointer {
-    accel_profile flat
-    pointer_accel -0.2
-}
+# my own preference.
+#
+# input type:pointer {
+#     accel_profile flat
+#     pointer_accel -0.6
+# }
 
 input type:keyboard {
     xkb_layout us

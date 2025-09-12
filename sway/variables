@@ -1,3 +1,5 @@
+font fira code medium 12
+
 set $mod Mod4
 # Home row direction keys, like vim
 set $left h

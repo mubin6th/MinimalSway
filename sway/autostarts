@@ -1,1 +1,3 @@
-exec pipewire
+# only meant for voidlinux
+# exec pipewire
+# exec pipewire-pulse

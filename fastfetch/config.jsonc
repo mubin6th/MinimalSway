@@ -6,13 +6,7 @@
     "os",
     "kernel",
     "packages",
-    "shell",
     "wm",
-    "theme",
-    "icons",
-    "font",
-    "terminal",
-    "locale",
     "break",
     "colors"
   ]

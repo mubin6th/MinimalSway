@@ -1,41 +1,37 @@
 [colors.primary]
-background = '#101010'
-foreground = '#c9af82'
+background = '#120e08'
+foreground = '#a68d6a'
 
 [colors.normal]
-black   = '#1d2021'
-white   = '#c9af82'
-red     = '#c7433c'
-green   = '#899359'
-blue    = '#60998d'
-yellow  = '#b8883b'
-cyan    = '#749e6e'
-magenta = '#ab536a'
+black   = '#120e08'
+white   = '#a68d6a'
+red     = '#d6be9c'
+green   = '#c3a881'
+blue    = '#a68d6a'
+yellow  = '#c3a881'
+cyan    = '#816c4e'
+magenta = '#816c4e'
 
 [colors.bright]
-black   = '#4b4239'
-white   = '#ddc7a1'
-red     = '#ea6962'
-green   = '#a9b665'
-blue    = '#7daea3'
-yellow  = '#d8a657'
-cyan    = '#89b482'
-magenta = '#c26780'
+black   = '#493b2d'
+white   = '#d6be9c'
+red     = '#d6be9c'
+green   = '#c3a881'
+blue    = '#a68d6a'
+yellow  = '#c3a881'
+cyan    = '#816c4e'
+magenta = '#816c4e'
 
 [font]
 size = 16
 
 [font.normal]
-family = "mononoki"
-style = "bold"
+family = "fira code"
+style = "medium"
 
 [terminal.shell]
 program = "/bin/fish"
 
-[window]
-opacity = 1.000000
-
 [window.padding]
 x = 24
 y = 24
-
