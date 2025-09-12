@@ -38,7 +38,7 @@ a *superset* of SwayWM.
 ## Preview
 > [!WARNING]
 > Some changes after the image was uploaded:
->   - The image uses the `Ubuntu mono` font, but currently we use the `Mononoki` font.
+>   - The image uses the `Ubuntu mono` font, but currently we use the `Fira Code` font.
 >   - The text editor(Neovim) currently uses the [charcoal](https://github.com/mubin6th/charcoal) color scheme.
 
 
@@ -83,7 +83,7 @@ $ sudo apt install sway swaybg swayidle alacritty fish waybar grim slurp bemenu
 ```
 
 ### Installing the font
-The configuration uses the [Mononoki](https://madmalik.github.io/mononoki/) font. You can download it from [here](https://github.com/madmalik/mononoki/releases/latest). After you have downloaded and unzipped the file, run
+The configuration uses the [Fira Code](https://github.com/tonsky/FiraCode) font. You can download it from [here](https://github.com/tonsky/firacode/releases/latest). After you have downloaded and unzipped the file, run
 the following command on **Linux** to install it:
 ```bash
 $ mv *.ttf /usr/share/fonts/TTF
