@@ -1,0 +1,19 @@
+command = /bin/fish
+
+shell-integration-features = no-cursor
+
+cursor-style = block
+cursor-style-blink = false
+cursor-color = #a28a5f
+
+font-family = Iosevka
+font-size = 15
+font-feature = -calt, -liga, -dlig
+
+window-padding-x = 24
+window-padding-y = 24
+
+background = #120e08
+foreground = #bea77b
+
+confirm-close-surface = false

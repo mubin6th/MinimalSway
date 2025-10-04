@@ -822,39 +822,39 @@ require("lazy").setup({
 							"cp",
 							fmt(
 								[[
-                  #include <bits/stdc++.h>
-                  using namespace std;
+                    #include <bits/stdc++.h>
+                    using namespace std;
 
-                  #define _vec vector
-                  #define _be(_a) _a.begin(), _a.end()
-                  #define _rbe(_a) _a.rbegin(), _a.rend()
+                    #define _vec vector
+                    #define _be(_a) _a.begin(), _a.end()
+                    #define _rbe(_a) _a.rbegin(), _a.rend()
 
-                  typedef long long int lli;
-                  typedef long long unsigned int llu;
+                    typedef long long int lli;
+                    typedef long long unsigned int llu;
 
-                  const int M = (int)1e9 + 7;
+                    const int M = (int)1e9 + 7;
 
-                  template<typename T>
-                  void print_vec(const _vec<T> &v)
-                  {{
-                      for (const T &elem : v) {{
-                          cout << elem << " ";
-                      }}
-                      printf("\n");
-                  }}
+                    template<typename T>
+                    void print_vec(const _vec<T> &v)
+                    {{
+                        for (const T &elem : v) {{
+                            cout << elem << " ";
+                        }}
+                        printf("\n");
+                    }}
 
-                  inline bool sqrt_able(lli n)
-                  {{
-                      lli k = sqrt((double)n);
-                      return k * k == n;
-                  }}
+                    inline bool sqrt_able(lli n)
+                    {{
+                        lli k = sqrtl((long double)n);
+                        return k * k == n;
+                    }}
 
-                  int main()
-                  {{
-                      {}
+                    int main()
+                    {{
+                        {}
 
-                      return 0;
-                  }}
+                        return 0;
+                    }}
                 ]],
 								{ ls.insert_node(0) }
 							)
@@ -864,53 +864,72 @@ require("lazy").setup({
 							"cpt",
 							fmt(
 								[[
-                  #include <bits/stdc++.h>
-                  using namespace std;
+                    #include <bits/stdc++.h>
+                    using namespace std;
 
-                  #define _vec vector
-                  #define _be(_a) _a.begin(), _a.end()
-                  #define _rbe(_a) _a.rbegin(), _a.rend()
+                    #define _vec vector
+                    #define _be(_a) _a.begin(), _a.end()
+                    #define _rbe(_a) _a.rbegin(), _a.rend()
 
-                  typedef long long int lli;
-                  typedef long long unsigned int llu;
+                    typedef long long int lli;
+                    typedef long long unsigned int llu;
 
-                  const int M = (int)1e9 + 7;
+                    const int M = (int)1e9 + 7;
 
-                  template<typename T>
-                  void print_vec(const _vec<T> &v)
-                  {{
-                      for (const T &elem : v) {{
-                          cout << elem << " ";
-                      }}
-                      printf("\n");
-                  }}
+                    template<typename T>
+                    void print_vec(const _vec<T> &v)
+                    {{
+                        for (const T &elem : v) {{
+                            cout << elem << " ";
+                        }}
+                        printf("\n");
+                    }}
 
-                  inline bool sqrt_able(lli n)
-                  {{
-                      lli k = sqrt((double)n);
-                      return k * k == n;
-                  }}
+                    inline bool sqrt_able(lli n)
+                    {{
+                        lli k = sqrtl((long double)n);
+                        return k * k == n;
+                    }}
 
-                  void solve()
-                  {{
-                      {}
-                  }}
+                    void solve()
+                    {{
+                        {}
+                    }}
 
-                  int main()
-                  {{
-                      int t;
-                      cin >> t;
+                    int main()
+                    {{
+                        int t;
+                        cin >> t;
 
-                      while (t--) {{
-                          solve();
-                      }}
+                        while (t--) {{
+                            solve();
+                        }}
 
-                      return 0;
-                  }}
+                        return 0;
+                    }}
                 ]],
 								{ ls.insert_node(0) }
 							)
 						),
+
+            ls.snippet(
+              "gost",
+              fmt(
+                [[
+                    #include <ext/pb_ds/assoc_container.hpp>
+                    #include <ext/pb_ds/tree_policy.hpp>
+                    using namespace __gnu_pbds;
+
+                    // ordered_set(<your preferred type>) ms;
+                    // ms.order_of_key(v); -> Index of the element `v`.
+                    // ms.find_by_order(k); -> k-th element in a set (counting from zero).
+                    #define ordered_set(type) \
+                        tree<type, null_type, less<type>, rb_tree_tag, \
+                             tree_order_statistics_node_update>
+                ]],
+                {}
+              )
+            )
 					})
 				end,
 				version = "2.*",
@@ -1018,25 +1037,25 @@ require("lazy").setup({
 			require("mini.base16").setup({
 				palette = {
 					base00 = "#120e08", -- background
-					base01 = "#1f180e", -- brigher background (for status bars, line number,
+					base01 = "#1d180f", -- brigher background (for status bars, line number,
 					--                     folding marks)
-					base02 = "#352c1f", -- selection background
-					base03 = "#816c4e", -- comments, invisibles, line highlighting
-					base04 = "#a68d6a", -- dark foreground (for status bars)
-					base05 = "#a68d6a", -- foreground
-					base06 = "#d6be9c", -- bright foreground
+					base02 = "#261f15", -- selection background
+					base03 = "#786440", -- comments, invisibles, line highlighting
+					base04 = "#a28a5f", -- dark foreground (for status bars)
+					base05 = "#bea77b", -- foreground
+					base06 = "#d3bd95", -- bright foreground
 					base07 = "#352c1f", -- bright background
-					base08 = "#c3a881", -- variables, xml tags, markup link text, markup lists,
+					base08 = "#a28a5f", -- variables, xml tags, markup link text, markup lists,
 					--                     diff deleted
-					base09 = "#d6be9c", -- integer, boolean, constants, xml attributes, markup link
+					base09 = "#bea77b", -- integer, boolean, constants, xml attributes, markup link
 					--                     url
-					base0A = "#d6be9c", -- classes, markup bold, search text background
-					base0B = "#a68d6a", -- strings, inherited class, markup code, diff inserted
-					base0C = "#d6be9c", -- data types, support, regular expressions,
+					base0A = "#d3bd95", -- classes, markup bold, search text background
+					base0B = "#bea77b", -- strings, inherited class, markup code, diff inserted
+					base0C = "#d3bd95", -- data types, support, regular expressions,
 					--                     escape characters, markup, quotes
-					base0D = "#c3a881", -- functions, methods, attribute ids, headings
-					base0E = "#a68d6a", -- keywords, storage, selector, markup italic, diff changed
-					base0F = "#816c4e", -- deprecated, opening/closing embedded language tags,
+					base0D = "#d3bd95", -- functions, methods, attribute ids, headings
+					base0E = "#bea77b", -- keywords, storage, selector, markup italic, diff changed
+					base0F = "#8b7650", -- deprecated, opening/closing embedded language tags,
 					--                     e.g. `<?php ?>`
 				},
 				use_cterm = true,
